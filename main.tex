@@ -1,15 +1,22 @@
 \documentclass[12pt]{article}
+\usepackage{lmodern} % Add the lmodern package to fix missing font shapes
+% Use fontspec for Unicode support
+\usepackage{fontspec}
+
 % \usepackage[utf8]{inputenc}
 
 %% PACKAGES
 % Meta
-\usepackage{geometry, color, hyperref, ragged2e}
-\usepackage{setspace}
+\usepackage{geometry, color, hyperref, ragged2e, setspace}
 \usepackage{pdflscape} % Produce landscape pages in a (mainly) portrait document.
 % Maths
 \usepackage{amsmath, amsfonts, unicode-math, bbold}
+\setmathfont{latinmodern-math.otf}
+
 % Bibliography
-\usepackage{natbib}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}  % This is the file exported from Zotero
+
 % Graphics
 \usepackage{graphicx, subcaption}
 % Tables
@@ -22,14 +29,17 @@
 \usepackage{epigraph}
 % Typesetting
 \usepackage{soul} % Break line in underline with \ul
-\usepackage{microtype} % Improve word breaking
+%\usepackage{microtype} % Improve word breaking
 
 %%%%% MINIMAL EXTENSIONS
 \RequirePackage[TS1,T1]{fontenc}			%% font encodage
-% \RequirePackage{lmodern}					%% latin font
-\RequirePackage{fourier-otf}			    %% Adobe Utopia font
+%\RequirePackage{lmodern}					%% latin font
+%\RequirePackage{fourier-otf}			    %% Adobe Utopia font
 \RequirePackage{textcomp}					%% other symbols
 \setlength{\parindent}{20pt}                %% par indent
+
+% Optional: Set a modern font (e.g., Latin Modern or Times New Roman)
+\setmainfont{Latin Modern Roman}
 
 %% PACKAGES OPTIONS
 % BASE: Penalty to avoid split in footnotes
@@ -61,20 +71,21 @@
 \begin{document}
 
 %% Title
-\title{Title\thanks{
+\title{Gender (In)equality in the UK: Occupations, Tasks and Wages\thanks{
 We are grateful to <Names>, as well as to audiences at the <Conferences> and seminar participants at <Seminars> for useful comments and suggestions. 
 This work was supported by <Grants>.
 }}
+
 %% Authors
-\author{Fabien Petit\thanks{University College London, CEPEO. Email: \href{mailto:f.petit@ucl.ac.uk}{f.petit@ucl.ac.uk}. Website: \href{www.fabienpetit.com}{fabienpetit.com}.}
-\and
-Author2\thanks{Affiliation2. Email: \href{mailto:email2}{email2}. Website: \href{website1}{website2}.}}
+\author{German Pulido\thanks{University College London, Social Research Institute. Email: \href{mailto:german.parra.22@ucl.ac.uk}{german.parra.22@ucl.ac.uk}.}}
+%\and
+%Author2\thanks{Affiliation2. Email: \href{mailto:email2}{email2}. Website: \href{website1}{website2}.}}
 
 \begin{titlepage}
 \maketitle
 
 \begin{abstract}
-\noindent This is not an abstract.
+\noindent This study examines the relationship between gender, occupational sorting, task allocation, and wage disparities within the UK labour market. Utilising data from the Skills and Employment Survey, which offers repeated cross‐sectional information on wages, occupations, and tasks, I investigate whether workers with similar occupations and education perform comparable tasks, explore the presence of wage differences for those undertaking analogous tasks, and assess patterns of occupational and task segregation by gender over time. Findings will enhance understanding of how task allocation contributes to wage gaps and inform policies to reduce gender inequality in the labour market.
 
 \vspace{1em}
 \noindent\textbf{Keywords:} These, are, not, keywords.\\
@@ -106,8 +117,10 @@ Author2\thanks{Affiliation2. Email: \href{mailto:email2}{email2}. Website: \href
 
 \clearpage
 \onehalfspacing % Bibliography and appendix in one half spacing
-\bibliographystyle{apalike}
-\bibliography{references.bib}
+
+%\bibliographystyle{apalike}
+\printbibliography
+
 
 %%% APPENDIX %%%
 \clearpage
