@@ -1,0 +1,52 @@
+
+The empirical analysis estimates the gender wage gap using the following log-linear regression model:
+
+\begin{equation}
+\log(wage_i) = \alpha + \beta \cdot Female_i + \mathbf{X}_i'\boldsymbol{\gamma} + \delta_{j(i)} + \theta_{k(i)} + \varepsilon_i
+\end{equation}
+
+where $\log(wage_i)$ denotes the natural logarithm of hourly wages for individual $i$, and $Female_i$ is a binary 
+indicator equal to one if the individual is female and zero otherwise. The vector $\mathbf{X}_i$ includes individual-level 
+controls such as age, education, and region. The terms $\delta_{j(i)}$ and $\theta_{k(i)}$ represent fixed effects for occupation 
+(3-digit SOC) and industry (2-digit SIC), respectively, and $\varepsilon_i$ is the error term. In extended specifications, the model 
+incorporates additional variables capturing task and skill requirements derived from job-level data. The coefficient $\beta$ measures 
+the conditional gender wage gap, interpreted as the average percentage difference in hourly wages between women and men, conditional 
+on observed characteristics, occupational sorting, and task content.
+
+
+Table X reports estimates of the gender wage gap from a series of linear regressions where the 
+dependent variable is the log of hourly wages. Column (1) presents the baseline specification, 
+which includes controls for individual-level characteristics such as age, education, and region. 
+In this model, women earn approximately 14.9\% less than men. Column (2) adds controls for occupation and industry, reducing the estimated wage 
+gap to 6.1\% and explaining 59.2\% of the initial difference. This substantial reduction highlights the 
+central role of occupational and industrial sorting in shaping gender disparities in pay.
+
+Columns (3) through (14) sequentially introduce a wide range of skill and task measures, including 
+indicators of cognitive, manual, interpersonal, and planning-related demands. Across these models, 
+the adjusted gender wage gap remains consistently between 5.4\% and 7.4\%, with relatively minor variation 
+in the percent of the gap explained. The highest explanatory power is reached in column (12), where 63.6\% of 
+the original gap is accounted for, while the lowest occurs in column (13), at 50.6\%. These changes, though 
+measurable, are modest compared to the explanatory contribution of occupation and industry introduced in column (2).
+
+Overall, the results suggest that while gender differences in task and skill requirements explain a small 
+additional portion of the wage gap, the vast majority of the explained component derives from gender sorting 
+into different occupations and industries. Even after accounting for detailed task characteristics, a 
+persistent and statistically significant wage penalty of around 6\% remains for women, pointing to the 
+enduring role of within-job and potentially discriminatory mechanisms in the gender wage structure.
+
+\begin{table}[!t]
+    \centering
+    \caption{Gender Wage Gap}
+    \label{tab:task-wagegap}
+     \resizebox*{\textwidth}{!}{
+    \begin{threeparttable}
+        % \setlength{\tabcolsep}{6pt}
+        % \small
+        \input{_tabular/table-gendergap.tex}
+        \begin{tablenotes}[flushleft]
+            \scriptsize{\item \textit{Source}: Adapted from \textcite{lindleyGenderDifferencesJob2015a}. 
+            \item \textit{Notes}: Stadardt errors are clustered at the occupation level. + p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001.}
+        \end{tablenotes}
+    \end{threeparttable}
+     }
+\end{table}

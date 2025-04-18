@@ -8,7 +8,7 @@
 %% PACKAGES
 % Meta
 \usepackage{geometry, color, hyperref, ragged2e, setspace}
-\usepackage{pdflscape} % Produce landscape pages in a (mainly) portrait document.
+%\usepackage{pdflscape} % Produce landscape pages in a (mainly) portrait document.
 % Maths
 \usepackage{amsmath, amsfonts, unicode-math, bbold}
 \setmathfont{latinmodern-math.otf}
@@ -30,6 +30,7 @@
 % Typesetting
 \usepackage{soul} % Break line in underline with \ul
 %\usepackage{microtype} % Improve word breaking
+
 
 %%%%% MINIMAL EXTENSIONS
 \RequirePackage[TS1,T1]{fontenc}			%% font encodage
@@ -71,7 +72,7 @@
 \begin{document}
 
 %% Title
-\title{Gender (In)equality in the UK: Occupations, Tasks and Wages\thanks{
+\title{Gender (In)equality in England: Occupations, Tasks and Wages\thanks{
 We are grateful to <Names>, as well as to audiences at the <Conferences> and seminar participants at <Seminars> for useful comments and suggestions. 
 This work was supported by <Grants>.
 }}
@@ -107,8 +108,14 @@ This work was supported by <Grants>.
 \section{Section} \label{sec:section}
 \input{_chapter/02-section}
 
+\section{Data and Methodology} \label{sec:methods1}
+\input{_chapter/03_modifiedD_methods}
+
+\section{Gender Wage Gap} \label{sec:methods2}
+\input{_chapter/04_results_genderwage.tex}
+
 \section{Conclusion} \label{sec:conclusion}
-\input{_chapter/03-conclusion}
+\input{_chapter/06-conclusion}
 
 %% Comments the lines below
 % \clearpage

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,83 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global}
-    \entry{goldinGrandGenderConvergence2014a}{article}{}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{fortinInequalityChangesTask2016}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e6dbf88b7a9c08c9443060764d42e7d5}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261b3be4ecb61f279cdbd85e8fcdcc32}{%
+           family={Lemieux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=7b14da0725a7a7b8eef6a9e3c2bf5405}{%
+           family={Cappellari},
+           familyi={C\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2455dc5f0b437fe42041a76c113c054c}{%
+           family={Polachek},
+           familyi={P\bibinitperiod},
+           given={Solomon\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5940201df3d4a0f12cbac1991f2ac33a}{%
+           family={Tatsiramos},
+           familyi={T\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{fullhash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{fullhashraw}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{bibnamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorbibnamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authornamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorfullhash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorfullhashraw}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{editorbibnamehash}{017d3bc8c3d607060c5f6155480503cb}
+      \strng{editornamehash}{9cfd0549cdf347978cdd75518cbe9d1b}
+      \strng{editorfullhash}{017d3bc8c3d607060c5f6155480503cb}
+      \strng{editorfullhashraw}{017d3bc8c3d607060c5f6155480503cb}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Research in {{Labor Economics}}}
+      \field{isbn}{978-1-78560-811-7 978-1-78560-810-0}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shorttitle}{Inequality and {{Changes}} in {{Task Prices}}}
+      \field{title}{Inequality and {{Changes}} in {{Task Prices}}: {{Within}} and between {{Occupation Effects}}}
+      \field{urlday}{10}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{195\bibrangedash 226}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1108/S0147-912120160000043014
+      \endverb
+      \verb{file}
+      \verb C:\Users\Lenovo\Zotero\storage\JU2PP7IF\Fortin and Lemieux - 2016 - Inequality and Changes in Task Prices Within and .pdf
+      \endverb
+    \endentry
+    \entry{goldinGrandGenderConvergence2014a}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a18c02f3c78d81d8178faf1ae63981ee}{%
            family={Goldin},
@@ -30,14 +105,16 @@
       }
       \strng{namehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{fullhash}{a18c02f3c78d81d8178faf1ae63981ee}
+      \strng{fullhashraw}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{bibnamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authorbibnamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authornamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authorfullhash}{a18c02f3c78d81d8178faf1ae63981ee}
+      \strng{authorfullhashraw}{a18c02f3c78d81d8178faf1ae63981ee}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -65,9 +142,197 @@
       \endverb
       \keyw{Economics of Gender,Labor Productivity Wages Compensation and Labor Costs: General Wage Level and Structure,Non-labor Discrimination Time Allocation and Labor Supply Human Capital,Occupational Choice,Payment Methods Economic History: Labor and Consumers Demography Education Health Welfare Income Wealth Religion and Philanthropy: General International or Comparative,Skills,Wage Differentials Compensation Packages}
     \endentry
+    \entry{lindleyGenderDifferencesJob2015a}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9cab29371cf0b24d60cc247f3fca3e9}{%
+           family={Lindley},
+           familyi={L\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3b851cf8bad024a90cf4240a7ed5f12a}{%
+           family={Felstead},
+           familyi={F\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=024c8c8dd35b3ca276541441dc325252}{%
+           family={Gallie},
+           familyi={G\bibinitperiod},
+           given={Duncan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5a0d3e2a71744f92c8e4d2c63ddaf95f}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{fullhash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{fullhashraw}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{bibnamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorbibnamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authornamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorfullhash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorfullhashraw}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{editorbibnamehash}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \strng{editornamehash}{3be65d29ba947089861faade86998039}
+      \strng{editorfullhash}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \strng{editorfullhashraw}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since 1997 the UK conditional gender pay gap has fallen by around 7 per cent. This is largely due to a closing of the within-occupational gender pay gap, but is also partly due to occupational desegregation. In contrast, gender differentials for non-pay job quality have remained relatively stable. Drawing data from the Skills and Employment Survey and from the Labour Force surveys, the chapter finds evidence of lower pay and poorer job quality (in terms of working at high speed) for women vis-à-vis men employed within the same occupations; these differences are not significant upon labour market entry but emerge subsequently over the life cycle. This chapter also finds that more women than men still work in the lowest-paid service sector occupations and fewer work in the highest-paid occupations. However, during the 2000s there has been occupational upgrading for women and job polarization for men.}
+      \field{booktitle}{Unequal {{Britain}} at {{Work}}}
+      \field{isbn}{978-0-19-871284-8}
+      \field{month}{7}
+      \field{title}{Gender {{Differences}} in {{Job Quality}}}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{0}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780198712848.003.0003
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Lenovo\\Zotero\\storage\\8T4IH9QN\\Lindley - 2015 - Gender Differences in Job Quality.pdf;C\:\\Users\\Lenovo\\Zotero\\storage\\D96HEMD7\\146718644.html
+      \endverb
+      \warn{\item Range field 'pages' in entry 'lindleyGenderDifferencesJob2015a' is malformed, falling back to literal}
+    \endentry
+    \entry{miriamkoomenOccupationalTasksWage2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f2c5c81d2813c13255c44da9b26c5a0}{%
+           family={{Miriam Koomen}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9f2c5c81d2813c13255c44da9b26c5a0}{%
+           family={{Miriam Koomen}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c02088a386d362076cb9117c24211f04}{%
+           family={{Backes-Gellner}},
+           familyi={B\bibinitperiod},
+           given={Uschi},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b82e2c5878a8f13c85c91603c347fa}{%
+           family={{Uschi Backes-Gellner}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{16063d9f646bc5ebc3526a163342506b}
+      \strng{fullhash}{e827ef8405136925bbfe039731f75665}
+      \strng{fullhashraw}{e827ef8405136925bbfe039731f75665}
+      \strng{bibnamehash}{e827ef8405136925bbfe039731f75665}
+      \strng{authorbibnamehash}{e827ef8405136925bbfe039731f75665}
+      \strng{authornamehash}{16063d9f646bc5ebc3526a163342506b}
+      \strng{authorfullhash}{e827ef8405136925bbfe039731f75665}
+      \strng{authorfullhashraw}{e827ef8405136925bbfe039731f75665}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the role of occupational tasks as drivers of West German wage inequality. We match administrative wage data with longitudinal task data, which allows us to account for within-occupation changes in task content over time. We run RIF regression-based decompositions to quantify the contribution of changes in the returns to tasks to overall changes in the wage distribution from 1978 to 2006. We find that changes in the returns to tasks explain up to half of the increase in wage inequality since the 1990s, both at the top and the bottom of the wage distribution. Specifically, abstract tasks drive the upper wage gap, while interactive and routine tasks drive the lower wage gap. Importantly, we find low-wage occupations to have the highest routine task intensity. The association between occupational tasks and West German wage inequality is thus both stronger and different than prior research has found.}
+      \field{annotation}{MAG ID: 4306180917}
+      \field{journaltitle}{Labour Economics}
+      \field{month}{10}
+      \field{title}{Occupational {{Tasks}} and {{Wage Inequality}} in {{Germany}}: {{A Decomposition Analysis}}}
+      \field{year}{2022}
+      \field{pages}{102284\bibrangedash 102284}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.labeco.2022.102284
+      \endverb
+    \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global}
-    \entry{goldinGrandGenderConvergence2014a}{article}{}
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{fortinInequalityChangesTask2016}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e6dbf88b7a9c08c9443060764d42e7d5}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=261b3be4ecb61f279cdbd85e8fcdcc32}{%
+           family={Lemieux},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=7b14da0725a7a7b8eef6a9e3c2bf5405}{%
+           family={Cappellari},
+           familyi={C\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2455dc5f0b437fe42041a76c113c054c}{%
+           family={Polachek},
+           familyi={P\bibinitperiod},
+           given={Solomon\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5940201df3d4a0f12cbac1991f2ac33a}{%
+           family={Tatsiramos},
+           familyi={T\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{fullhash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{fullhashraw}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{bibnamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorbibnamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authornamehash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorfullhash}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{authorfullhashraw}{aadd6e78d5bdea0fc4ccd83f47de67ef}
+      \strng{editorbibnamehash}{017d3bc8c3d607060c5f6155480503cb}
+      \strng{editornamehash}{9cfd0549cdf347978cdd75518cbe9d1b}
+      \strng{editorfullhash}{017d3bc8c3d607060c5f6155480503cb}
+      \strng{editorfullhashraw}{017d3bc8c3d607060c5f6155480503cb}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Research in {{Labor Economics}}}
+      \field{isbn}{978-1-78560-811-7 978-1-78560-810-0}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shorttitle}{Inequality and {{Changes}} in {{Task Prices}}}
+      \field{title}{Inequality and {{Changes}} in {{Task Prices}}: {{Within}} and between {{Occupation Effects}}}
+      \field{urlday}{10}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{195\bibrangedash 226}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1108/S0147-912120160000043014
+      \endverb
+      \verb{file}
+      \verb C:\Users\Lenovo\Zotero\storage\JU2PP7IF\Fortin and Lemieux - 2016 - Inequality and Changes in Task Prices Within and .pdf
+      \endverb
+    \endentry
+    \entry{goldinGrandGenderConvergence2014a}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a18c02f3c78d81d8178faf1ae63981ee}{%
            family={Goldin},
@@ -78,14 +343,16 @@
       }
       \strng{namehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{fullhash}{a18c02f3c78d81d8178faf1ae63981ee}
+      \strng{fullhashraw}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{bibnamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authorbibnamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authornamehash}{a18c02f3c78d81d8178faf1ae63981ee}
       \strng{authorfullhash}{a18c02f3c78d81d8178faf1ae63981ee}
+      \strng{authorfullhashraw}{a18c02f3c78d81d8178faf1ae63981ee}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -113,7 +380,121 @@
       \endverb
       \keyw{Economics of Gender,Labor Productivity Wages Compensation and Labor Costs: General Wage Level and Structure,Non-labor Discrimination Time Allocation and Labor Supply Human Capital,Occupational Choice,Payment Methods Economic History: Labor and Consumers Demography Education Health Welfare Income Wealth Religion and Philanthropy: General International or Comparative,Skills,Wage Differentials Compensation Packages}
     \endentry
+    \entry{lindleyGenderDifferencesJob2015a}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9cab29371cf0b24d60cc247f3fca3e9}{%
+           family={Lindley},
+           familyi={L\bibinitperiod},
+           given={Joanne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=3b851cf8bad024a90cf4240a7ed5f12a}{%
+           family={Felstead},
+           familyi={F\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=024c8c8dd35b3ca276541441dc325252}{%
+           family={Gallie},
+           familyi={G\bibinitperiod},
+           given={Duncan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5a0d3e2a71744f92c8e4d2c63ddaf95f}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{fullhash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{fullhashraw}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{bibnamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorbibnamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authornamehash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorfullhash}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{authorfullhashraw}{a9cab29371cf0b24d60cc247f3fca3e9}
+      \strng{editorbibnamehash}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \strng{editornamehash}{3be65d29ba947089861faade86998039}
+      \strng{editorfullhash}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \strng{editorfullhashraw}{9b4eb0417b1be7cbff0c79ffe3710f79}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since 1997 the UK conditional gender pay gap has fallen by around 7 per cent. This is largely due to a closing of the within-occupational gender pay gap, but is also partly due to occupational desegregation. In contrast, gender differentials for non-pay job quality have remained relatively stable. Drawing data from the Skills and Employment Survey and from the Labour Force surveys, the chapter finds evidence of lower pay and poorer job quality (in terms of working at high speed) for women vis-à-vis men employed within the same occupations; these differences are not significant upon labour market entry but emerge subsequently over the life cycle. This chapter also finds that more women than men still work in the lowest-paid service sector occupations and fewer work in the highest-paid occupations. However, during the 2000s there has been occupational upgrading for women and job polarization for men.}
+      \field{booktitle}{Unequal {{Britain}} at {{Work}}}
+      \field{isbn}{978-0-19-871284-8}
+      \field{month}{7}
+      \field{title}{Gender {{Differences}} in {{Job Quality}}}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{0}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780198712848.003.0003
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Lenovo\\Zotero\\storage\\8T4IH9QN\\Lindley - 2015 - Gender Differences in Job Quality.pdf;C\:\\Users\\Lenovo\\Zotero\\storage\\D96HEMD7\\146718644.html
+      \endverb
+      \warn{\item Range field 'pages' in entry 'lindleyGenderDifferencesJob2015a' is malformed, falling back to literal}
+    \endentry
+    \entry{miriamkoomenOccupationalTasksWage2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f2c5c81d2813c13255c44da9b26c5a0}{%
+           family={{Miriam Koomen}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9f2c5c81d2813c13255c44da9b26c5a0}{%
+           family={{Miriam Koomen}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c02088a386d362076cb9117c24211f04}{%
+           family={{Backes-Gellner}},
+           familyi={B\bibinitperiod},
+           given={Uschi},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b82e2c5878a8f13c85c91603c347fa}{%
+           family={{Uschi Backes-Gellner}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{16063d9f646bc5ebc3526a163342506b}
+      \strng{fullhash}{e827ef8405136925bbfe039731f75665}
+      \strng{fullhashraw}{e827ef8405136925bbfe039731f75665}
+      \strng{bibnamehash}{e827ef8405136925bbfe039731f75665}
+      \strng{authorbibnamehash}{e827ef8405136925bbfe039731f75665}
+      \strng{authornamehash}{16063d9f646bc5ebc3526a163342506b}
+      \strng{authorfullhash}{e827ef8405136925bbfe039731f75665}
+      \strng{authorfullhashraw}{e827ef8405136925bbfe039731f75665}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the role of occupational tasks as drivers of West German wage inequality. We match administrative wage data with longitudinal task data, which allows us to account for within-occupation changes in task content over time. We run RIF regression-based decompositions to quantify the contribution of changes in the returns to tasks to overall changes in the wage distribution from 1978 to 2006. We find that changes in the returns to tasks explain up to half of the increase in wage inequality since the 1990s, both at the top and the bottom of the wage distribution. Specifically, abstract tasks drive the upper wage gap, while interactive and routine tasks drive the lower wage gap. Importantly, we find low-wage occupations to have the highest routine task intensity. The association between occupational tasks and West German wage inequality is thus both stronger and different than prior research has found.}
+      \field{annotation}{MAG ID: 4306180917}
+      \field{journaltitle}{Labour Economics}
+      \field{month}{10}
+      \field{title}{Occupational {{Tasks}} and {{Wage Inequality}} in {{Germany}}: {{A Decomposition Analysis}}}
+      \field{year}{2022}
+      \field{pages}{102284\bibrangedash 102284}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.labeco.2022.102284
+      \endverb
+    \endentry
   \enddatalist
+  \missing{cortes2018occupation}
 \endrefsection
 \endinput
 
